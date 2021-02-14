@@ -10,11 +10,11 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 600, WEBGL);
+  createCanvas(600, 600, WEBGL);
 }
 
 function draw() {
-  background(200);
+  background(255);
   scale(10)
   rotateX(PI);
   rotateY(frameCount * 0.01);
